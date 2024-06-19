@@ -52,3 +52,82 @@ Submit your document and GitHub repository link through the designated platform 
 - Adherence to submission guidelines and deadlines.
 
 Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
+
+#############################################################################################################################################
+NAME: SETH MUTUBA
+1. Select Your Operating System
+•	Windows 11 Installation:
+	Visit https://www.microsoft.com/software-download/windows11.
+	Follow the on-screen instructions to download the Windows 11 installation tool.
+	Run the tool and follow prompts to upgrade current Windows version or create installation media.
+2. Install a Text Editor or IDE
+•	Visual Studio Code Installation:
+	Visit https://code.visualstudio.com/Download.
+	Download the installer suitable for Windows.
+	Run the installer and follow the installation wizard.
+	Once installed, launch VS Code.
+3. Set Up Version Control System
+•	Git Installation and Configuration:
+	Visit https://github.com  for Windows.
+	Download the Git installer.
+	Run the installer and follow the installation wizard:
+	Accept the default settings unless you have specific preferences.
+	Select appropriate options like adjusting your PATH environment or choosing the default editor.
+	Open a command prompt or Git Bash and configure Git with your name and email:
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+	Verify the installation:
+git --version
+•	GitHub Account Setup:
+	Go to GitHub and sign up for an account if you haven't already.
+•	Initialize Git Repository:
+	Navigate to your project directory:
+cd path/to/your/project
+	Initialize a Git repository:
+git init
+	Add files to the repository:
+git add .
+	Commit the files:
+git commit -m "Initial commit"
+	Optionally, set up a remote repository on GitHub and push your changes there.
+4. Install Necessary Programming Languages and Runtimes
+•	Python Installation:
+	Visit http://wwww.python.org and download the latest version of Python for Windows.
+	Run the installer, ensuring to check the box "Add Python to PATH" during installation.
+	Complete the installation.
+5. Install Package Managers
+•	Install pip for Python:
+	Python installations usually come with pip.
+	Open a command prompt and verify pip installation:
+pip --version
+6. Configure a Database (MySQL)
+•	MySQL Installation:
+	Visit https://dev.mysql.com/downloads/windows/installer/5.7.html and download the MySQL Installer for Windows.
+	Run the installer and choose "Custom" setup to select components like MySQL Server, MySQL Workbench, etc.
+	Follow the installation wizard, setting up MySQL server with appropriate configurations (e.g., root password).
+	Start MySQL server and verify installation using MySQL Workbench or command line tools.
+7. Set Up Development Environments and Virtualization (Optional)
+•	Docker Installation:
+	Visit Docker Desktop for Windows and download the installer.
+	Run the installer and follow the installation wizard.
+	Ensure virtualization is enabled in your BIOS settings if required.
+	Start Docker Desktop and verify installation by running a simple container.
+8. Explore Extensions and Plugins
+•	Visual Studio Code Extensions:
+	Launch VS Code.
+	Navigate to Extensions view (Ctrl+Shift+X).
+	Search and install extensions relevant to your programming languages and tools (e.g., Python, MySQL, Docker).
+
+Challenge 
+During the setup process, several challenges were encountered that required careful attention and resolution. Initially, installing Windows 11 posed compatibility issues with existing hardware, which were addressed by updating drivers and ensuring all prerequisites were met before proceeding with installation.
+Subsequently, installing essential tools such as Python and Docker revealed dependencies and version conflicts. These were managed by utilizing virtual environments for Python and meticulously reviewing Dockerfile configurations to resolve dependencies and ensure compatibility across different components of the development stack.
+Configuring Git for version control presented another challenge, particularly in setting up SSH keys and ensuring proper repository configurations on GitHub. This was resolved by following GitHub's documentation on SSH key generation and carefully verifying repository settings to guarantee seamless access and collaboration.
+Finally, setting up the MySQL database encountered configuration and connectivity issues. Troubleshooting involved referring to MySQL documentation, adjusting firewall settings, and ensuring correct configuration of connection strings to establish reliable database connectivity.
+Throughout these challenges, thorough research, meticulous attention to detail, and leveraging online resources played pivotal roles in overcoming obstacles and ensuring a robust and functional development environment suitable for project requirements.
+Tools
+https://github.com/sethkipsangmutuba 
+ 
+
+
+
